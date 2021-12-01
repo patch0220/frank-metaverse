@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: f2966726745e71f43860f74d93608a39
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: body
+    100002: drawer
+    100004: drawer_001
+    100006: drawer_002
+    100008: drawer_003
+    100010: drawer_004
+    100012: drawer_005
+    100014: //RootNode
+    100016: handle
+    100018: handle_001
+    100020: handle_002
+    100022: handle_003
+    100024: handle_004
+    100026: handle_005
+    400000: body
+    400002: drawer
+    400004: drawer_001
+    400006: drawer_002
+    400008: drawer_003
+    400010: drawer_004
+    400012: drawer_005
+    400014: //RootNode
+    400016: handle
+    400018: handle_001
+    400020: handle_002
+    400022: handle_003
+    400024: handle_004
+    400026: handle_005
+    2100000: wood_drawer_
+    2100002: handle
+    2100004: dresser_wood_
+    2300000: body
+    2300002: drawer
+    2300004: drawer_001
+    2300006: drawer_002
+    2300008: drawer_003
+    2300010: drawer_004
+    2300012: drawer_005
+    2300014: handle
+    2300016: handle_001
+    2300018: handle_002
+    2300020: handle_003
+    2300022: handle_004
+    2300024: handle_005
+    3300000: body
+    3300002: drawer
+    3300004: drawer_001
+    3300006: drawer_002
+    3300008: drawer_003
+    3300010: drawer_004
+    3300012: drawer_005
+    3300014: handle
+    3300016: handle_001
+    3300018: handle_002
+    3300020: handle_003
+    3300022: handle_004
+    3300024: handle_005
+    4300000: drawer_005
+    4300002: handle_005
+    4300004: drawer_004
+    4300006: handle_004
+    4300008: drawer_003
+    4300010: handle_003
+    4300012: drawer_002
+    4300014: handle_002
+    4300016: drawer_001
+    4300018: handle_001
+    4300020: drawer
+    4300022: handle
+    4300024: body
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

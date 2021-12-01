@@ -1,0 +1,377 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1638262302670626, "dur":382, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302671014, "dur":29, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1638262302671049, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1638262302671062, "dur":196, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1638262302671276, "dur":345, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302671621, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794173, "dur":72, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794245, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794268, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794268, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794274, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794274, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794278, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794278, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794282, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794291, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794296, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794301, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794305, "dur":18, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794323, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794327, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794332, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794337, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794346, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302794349, "dur":619, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1638262302671112, "dur":517, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302671633, "dur":673, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672308, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672310, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672332, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672376, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672383, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672391, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672394, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672397, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672400, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672402, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672404, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672407, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672409, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672412, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672415, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672420, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672423, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672427, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672429, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672492, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672496, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672532, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672538, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672587, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672590, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/UnityPlayer.so" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672595, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672619, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672649, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672653, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672658, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302672661, "dur":1421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674082, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674087, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674181, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674185, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674200, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674204, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674390, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674394, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674417, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674436, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674477, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674481, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674514, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674517, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674540, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674543, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674563, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674566, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674588, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674591, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674624, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674626, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674716, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674720, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674740, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674742, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302674758, "dur":305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1638262302675067, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1638262302675074, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302675078, "dur":92, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1638262302675175, "dur":614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302675789, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302675793, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302675822, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302675825, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302675903, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302675907, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302675925, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302675928, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1638262302675956, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302675959, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1638262302675967, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1638262302675972, "dur":84, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1638262302676059, "dur":118173, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1638262302671136, "dur":502, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1638262302671639, "dur":676, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1638262302672318, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1638262302672662, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1638262302672667, "dur":840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1638262302673507, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1638262302673511, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1638262302673534, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1638262302673537, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1638262302673590, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1638262302673593, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1638262302673618, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1638262302673678, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":2, "ts":1638262302673785, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1638262302673789, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":2, "ts":1638262302673794, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1638262302673797, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1638262302674007, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1638262302674010, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1638262302674030, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1638262302674033, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1638262302674056, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1638262302674059, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1638262302674109, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1638262302674112, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1638262302674125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1638262302674236, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1638262302675228, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1638262302675235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1638262302675240, "dur":160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1638262302675403, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1638262302675410, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1638262302675413, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1638262302676570, "dur":117605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302671156, "dur":490, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302671646, "dur":664, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672313, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672552, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672631, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672655, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672659, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672700, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672704, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672722, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672725, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672730, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672734, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672750, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672753, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672774, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672777, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672926, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672930, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672949, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672952, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672975, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302672982, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1638262302673086, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302673090, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1638262302673110, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302673114, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1638262302673146, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302673149, "dur":1703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1638262302674852, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302674857, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":3, "ts":1638262302674866, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302674870, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":3, "ts":1638262302674874, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302674877, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1638262302674977, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302674981, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1638262302675003, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302675006, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1638262302675016, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302675020, "dur":445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1638262302675468, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1638262302675476, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1638262302675480, "dur":2199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1638262302677684, "dur":116493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1638262302671179, "dur":476, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1638262302671655, "dur":663, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1638262302672322, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1638262302672490, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1638262302672494, "dur":1821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674315, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674320, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674367, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674371, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674496, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674500, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674628, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674631, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674673, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674676, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674709, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674712, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674790, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674793, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674815, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674818, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674900, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674904, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674919, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674921, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1638262302674937, "dur":230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1638262302675170, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1638262302675179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1638262302675184, "dur":91, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1638262302675278, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1638262302675284, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1638262302675288, "dur":2675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1638262302677967, "dur":116266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1638262302671199, "dur":463, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1638262302671662, "dur":658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1638262302672325, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1638262302672508, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1638262302672536, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1638262302672542, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1638262302672593, "dur":1678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1638262302674271, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1638262302674277, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1638262302674278, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1638262302674281, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1638262302674305, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1638262302674308, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1638262302674335, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1638262302674338, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1638262302674357, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1638262302674360, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":5, "ts":1638262302674382, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1638262302674385, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1638262302674411, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1638262302674414, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1638262302674440, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1638262302674443, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1638262302674464, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1638262302674467, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1638262302675022, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1638262302675026, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1638262302676446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1638262302676454, "dur":117645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1638262302794105, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1638262302794107, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302671222, "dur":447, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302671669, "dur":658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672328, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672515, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672536, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672572, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672586, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild.x86_64" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672591, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672606, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672693, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672699, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672721, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672724, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672728, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672731, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672752, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672755, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672812, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672815, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672839, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672842, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672885, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672889, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672913, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672917, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672936, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672939, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672971, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672975, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672992, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302672995, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673017, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673021, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673287, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673290, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673319, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673322, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673349, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673352, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673470, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673474, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673519, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673522, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673609, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673612, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673708, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673711, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673732, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673736, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673913, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302673916, "dur":1804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1638262302675720, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302675726, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1638262302675739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1638262302675744, "dur":6131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1638262302681880, "dur":112286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302671241, "dur":433, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302671674, "dur":651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302672326, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1638262302672791, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302672795, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1638262302672860, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302672864, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":7, "ts":1638262302672891, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302672894, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":7, "ts":1638262302672913, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302672916, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1638262302672937, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302672940, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1638262302672967, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302672972, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":7, "ts":1638262302672999, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302673002, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1638262302673025, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302673029, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":7, "ts":1638262302673045, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302673048, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1638262302673140, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302673143, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":7, "ts":1638262302673160, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302673163, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":7, "ts":1638262302673199, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302673202, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1638262302673411, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302673414, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1638262302673433, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302673436, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1638262302673473, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302673476, "dur":2934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1638262302676410, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1638262302676416, "dur":117755, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302671261, "dur":419, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302671680, "dur":631, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302672315, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1638262302672468, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302672474, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1638262302672481, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302672485, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1638262302672489, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302672492, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1638262302672531, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302672537, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1638262302672566, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302672583, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1638262302672590, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302672593, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1638262302672653, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302672657, "dur":2011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1638262302674668, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302674673, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1638262302674700, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302674704, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1638262302674727, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302674731, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1638262302674761, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302674765, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1638262302674806, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302674810, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1638262302674842, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302674846, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1638262302674868, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302674871, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":8, "ts":1638262302674877, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302674880, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1638262302674891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1638262302674896, "dur":7254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/a9004204/Downloads/tempunitybuildtarget/escaperoombuild_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1638262302682153, "dur":112029, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1638262302795537, "dur":451, "ph":"X", "name": "ProfilerWriteOutput" }
+,
